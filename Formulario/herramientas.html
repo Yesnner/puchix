@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Herramientas FTTH - Saweson</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    body { background: #f7f9fc; font-family: Arial, sans-serif; color: #333; }
+    header { background-color: #8b0000; color: white; text-align: center; padding: 30px 10px; }
+    .contenedor-productos {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+      max-width: 1000px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+    .producto {
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      padding: 15px;
+      text-align: center;
+      transition: transform 0.2s ease;
+    }
+    .producto:hover { transform: scale(1.03); }
+    .producto img { width: 100%; height: 160px; object-fit: cover; border-radius: 10px; }
+    .producto h3 { margin: 10px 0 5px; color: #8b0000; }
+    .producto p { font-size: 0.9em; color: #555; }
+    .volver {
+      display: block; text-align: center; margin: 40px auto; width: 200px;
+      background: #c0392b; color: white; padding: 10px; border-radius: 6px;
+      text-decoration: none; font-weight: bold;
+    }
+    .volver:hover { background: #a93226; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Herramientas FTTH</h1>
+    <p>Todo lo necesario para la instalación profesional de fibra óptica.</p>
+  </header>
+
+  <main>
+    <section class="contenedor-productos">
+      <div class="producto">
+        <img src="https://www.promax.es/assets/images/products/sliderProductos/af-001/1.jpg">
+        <h3>Cortadora de Fibra</h3>
+        <p>Precisión y durabilidad en cada corte de hilo óptico.</p>
+      </div>
+      <div class="producto">
+        <img src="https://http2.mlstatic.com/D_NQ_NP_827721-MCO83268113464_042025-O.webp">
+        <h3>Peladora de Cable</h3>
+        <p>Diseñada para fibras drop e indoor, con ajuste de presión.</p>
+      </div>
+      <div class="producto">
+        <img src="https://imsmayorista.elegi.com.co/wp-content/uploads/2024/01/fusionadora2.png">
+        <h3>Empalmadora de Fusión</h3>
+        <p>Fusión automática con pantalla LCD y calibración óptica.</p>
+      </div>
+      <div class="producto">
+        <img src="https://http2.mlstatic.com/D_NQ_NP_977795-MCO74307879234_022024-O.webp">
+        <h3>Kit Completo FTTH</h3>
+        <p>Incluye cortadora, peladora, alcohol isopropílico y maletín.</p>
+      </div>
+    </section>
+    <a href="index.html" class="volver">Volver al inicio</a>
+  </main>
+</body>
+</html>
